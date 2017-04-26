@@ -263,3 +263,73 @@ body{
 .login-help{
   font-size: 12px;
 }
+
+
+/* navbar section
+导航栏css设置
+*/
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #0d6ded;
+  background-color: transparent;
+}
+//修改导航栏激活时候的颜色？
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #0d6ded;
+  //background-color: #0d6ded;
+}
+// 这是干什么？
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  //background-color: #0d6ded;
+  color: #212121;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 40px;
+  height: 40px;
+  padding-top: 5px;
+}
+
+.navbar-brand > img {
+  display: inline-block; //图片和链接文字显示在同一行
+  margin-top: -10px;
+  margin-right: 10px; //图片和链接文字拉开一点距离
+  //width: 25px; //定制图片宽度
+  height: 35px; //定制图片高度
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#search-id {
+  width: 200px;
+  padding-top: 7px;
+
+}
+
+.jobs-show0 {
+  border-bottom: 1px dotted #CCC;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-family: PingFangSC-Medium, Arial, Helvetica, sans-serif;
+}
+
+.jobs-show {
+  border-bottom: 1px dotted #CCC;
+  padding: 15px;
+  font-family: PingFangSC-Medium, Arial, Helvetica, sans-serif;
+}
+
+.search-info-title {
+  font-family: PingFangSC-Medium, Arial, Helvetica, sans-serif;
+  color: #0d6ded;
+  font-size: 20px;
+  text-align: center;
+}
